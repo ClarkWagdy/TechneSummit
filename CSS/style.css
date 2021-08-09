@@ -1,5 +1,107 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #010510;
+    color: white;
+}
+.home-page{
+    width: 100% !important;
+    height: 100vh !important;
+
+    justify-content: center !important;
+align-items: center !important;
+
+
+}
+.home-title {
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-title .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .home-title .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+  .home-p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .home-p .text-wrapper {
+    position: relative;
+    display: inline-block;
+padding: 0;
+  }
+  
+  .home-p .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .home-p .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .home-p .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  /* card */
+  .card{
+      width: 100% !important;
+      min-height: 200px !important;
+      border-radius: 10px !important;
+      
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      opacity: 0.7;
+      background-color: transparent;
+  }
+  .card:hover{
+      opacity: 1;
+      border: white 1px solid;
+   background-size: cover !important;
+}
+
+/* LOGO */
+@font-face {
+    font-family: myFirstFont;
+    src: url(Prestige\ Signature\ Script\ -\ Demo.ttf);
+ }
+
+.logo{
+    font-family: myFirstFont;
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none !important;
+}
+.logo:hover{
+  color: tomato !important;
     
 }
