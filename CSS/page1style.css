@@ -1,0 +1,114 @@
+/*-------------- screen 1 -------------- */
+#home{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*-------------- end screen 1 -------------- */
+  header{
+      min-height: 20%;
+  }
+
+  .navbar{
+
+    background-image: linear-gradient(to bottom , #2162AF, transparent);
+text-transform: uppercase;  
+}
+.navbar a:hover{
+
+  transform: scale(1.1);
+}
+  @media (max-width:991px){
+    .navbar{
+      background-color: #2162AF !important;
+    }
+  }
+   .navbar-brand {
+    width: 100px;
+}
+  .img-logo{
+      max-width: 100%;
+      height: auto;
+  }
+  .navbar-nav .nav-item a{
+      color: white;
+  font-weight: bold;
+  font-size: 14px;
+    }
+   
+    .book-now{
+        background-color: rgba(0, 0, 0,0.5);
+        border-radius: 10px;
+        font-size: 10px;
+padding: 10px;
+        border: white 0.5px solid;
+    }
+    .book-now:hover{
+        background-color: #F15A22;
+        border: #F15A22 0.5px solid;
+        color: white;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end !important;}
+        .dropdown-menu[data-bs-popper] {
+            left: auto !important;
+            right: 0 !important;
+        }
+        .dropdown-menu{
+            background-color: rgba(0, 0, 0,0.2) !important;
+        }
+        .dropdown-menu a:hover{
+            color: black !important;
+            background-color: rgba(255, 255, 255,0.8);
+        }
+   .navbar-toggler{
+       color: white;
+   }
+   .navbar-toggler i:focus{
+    border: 1px solid white !important;
+}
+.card-data{
+    width: 100%;
+    min-height: 80% !important;
+justify-content: center !important;
+align-items: center;
+}
+.alex-card{
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 10px;
+    border-radius: 15px;
+    border: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title{
+    color: #F15A22;
+    font-weight: bold;
+}
+.card-date{
+    text-align: center;
+    width: 80% !important;
+    font-weight: 700;
+}
+.social-icon{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: white 2px solid;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px;
+}
+.social-icon:hover{
+    background-color: rgba(241,90,34,0.8);
+
+}
