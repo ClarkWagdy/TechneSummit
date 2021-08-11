@@ -56,3 +56,11 @@ $(".screen1").click(function(){
 $(".screen2").click(function(){
     window.location.href="HTML/page2.html";
 })
+
+
+// change background
+
+var imgs=["./../asset/slide1.jpg","./../asset/slide2.jpg"]
+
+console.log("D")
+$("#home").style.backgroundImage = `url("./../asset/slide2.jpg")`;
